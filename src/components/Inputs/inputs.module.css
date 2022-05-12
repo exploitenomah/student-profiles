@@ -1,0 +1,9 @@
+
+.bottom_border_input{
+  color: var(--text-main);
+  border-bottom: 1px solid var(--text-tetiary);
+}
+.bottom_border_input:focus{
+  outline: none;
+  border-bottom-color:  rgba(0, 0, 0, 0.322);
+}

@@ -1,0 +1,51 @@
+
+:root{
+  --bg-main: #fff;
+  --bg-sub: #eee;
+  --text-main: #000;
+  --text-sub: #8c8c8c;
+  --text-tetiary: #ccc;
+}
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+button,a{
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: inherit;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+ul, ol, dl{
+  list-style-type: none;
+  padding-inline: 0;
+  margin: 0;
+}
+input{
+  border: none
+}
+
+html{
+  font-size: 70%;
+}
+@media (min-width: 600px){
+  html{
+    font-size: 85%;
+  }
+}
+@media (min-width: 900px){
+  html{
+    font-size: 100%;
+  }
+}
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+

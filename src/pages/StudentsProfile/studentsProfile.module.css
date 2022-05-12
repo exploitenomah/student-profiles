@@ -1,0 +1,24 @@
+
+.page{
+  background: var(--bg-sub);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main_card{
+  height: 90vh;
+  width:90vw;
+  overflow-y: auto;
+  background: var(--bg-main);
+  border-radius: 8px;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.179);
+  padding:0 1rem 1rem;
+}
+
+.search_input{
+  display: block;
+  width: 100%;
+  padding: 1.2rem 0 .6rem;
+}
