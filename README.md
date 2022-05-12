@@ -1,4 +1,4 @@
-# Student-Profiles Coding Challenge By Hatchway
+# Student-Profiles Coding Challenge By Hatchways
 
 ## Scripts
 
